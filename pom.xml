@@ -3,7 +3,7 @@
 
     <groupId>no.ssb.helidon</groupId>
     <artifactId>helidon-media-protobuf-json-server</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>jar</packaging>
 
     <name>helidon-media-protobuf-json-server</name>
