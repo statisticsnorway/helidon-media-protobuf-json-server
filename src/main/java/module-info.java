@@ -5,6 +5,7 @@ module no.ssb.helidon.media.protobuf.json.server {
     requires io.helidon.webserver;
     requires com.google.protobuf;
     requires com.google.protobuf.util;
+    requires com.google.gson;
 
     exports no.ssb.helidon.media.protobuf;
 }
