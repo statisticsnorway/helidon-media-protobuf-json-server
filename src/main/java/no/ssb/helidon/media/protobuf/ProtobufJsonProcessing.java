@@ -21,7 +21,6 @@ import com.google.protobuf.MessageOrBuilder;
 import com.google.protobuf.util.JsonFormat;
 import io.helidon.common.http.DataChunk;
 import io.helidon.common.http.Reader;
-import io.helidon.common.reactive.Flow;
 import io.helidon.media.common.ContentReaders;
 import io.helidon.media.common.ContentWriters;
 
@@ -32,6 +31,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.nio.charset.Charset;
 import java.util.Objects;
+import java.util.concurrent.Flow;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
