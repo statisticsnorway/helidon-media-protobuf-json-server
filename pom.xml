@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>no.ssb.helidon</groupId>
     <artifactId>helidon-media-protobuf-json-server</artifactId>
-    <version>0.4-SNAPSHOT</version>
+    <version>0.4</version>
     <packaging>jar</packaging>
 
     <name>helidon-media-protobuf-json-server</name>
@@ -40,7 +39,7 @@
         <developerConnection>scm:git:git@github.com:statisticsnorway/helidon-media-protobuf-json-server.git
         </developerConnection>
         <url>https://github.com/statisticsnorway/helidon-media-protobuf-json-server/tree/master</url>
-        <tag>HEAD</tag>
+        <tag>helidon-media-protobuf-json-server-0.4</tag>
     </scm>
 
     <dependencies>
