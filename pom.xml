@@ -3,7 +3,7 @@
 
     <groupId>no.ssb.helidon</groupId>
     <artifactId>helidon-media-protobuf-json-server</artifactId>
-    <version>0.5</version>
+    <version>0.6-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>helidon-media-protobuf-json-server</name>
@@ -39,7 +39,7 @@
         <developerConnection>scm:git:git@github.com:statisticsnorway/helidon-media-protobuf-json-server.git
         </developerConnection>
         <url>https://github.com/statisticsnorway/helidon-media-protobuf-json-server/tree/master</url>
-        <tag>helidon-media-protobuf-json-server-0.5</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
