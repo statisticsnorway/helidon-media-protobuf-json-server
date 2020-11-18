@@ -31,9 +31,8 @@ final class ProtobufBodyReader implements MessageBodyReader<Object> {
     public <U extends Object> Single<U> read(Flow.Publisher<DataChunk> publisher,
                                              GenericType<U> type, MessageBodyReaderContext context) {
         Charset charset = context.contentType()
-                .get()
-                .charset()
-                .map(charsetName -> Charset.forName(charsetName))
+                .map(mt -> mt.charset().orElse(StandardCharsets.UTF_8.name()))
+                .map(Charset::forName)
                 .orElse(StandardCharsets.UTF_8);
         return ContentReaders.readBytes(publisher).map(new ProtobufBodyReader.BytesToObject<>(type, charset));
     }
