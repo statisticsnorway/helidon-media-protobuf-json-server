@@ -14,7 +14,7 @@
     <properties>
         <java.version>11</java.version>
         <module.build.sourceEncoding>UTF-8</module.build.sourceEncoding>
-        <helidon.version>2.0.2</helidon.version>
+        <helidon.version>2.1.0</helidon.version>
     </properties>
 
     <licenses>
@@ -47,12 +47,6 @@
             <groupId>io.helidon.webserver</groupId>
             <artifactId>helidon-webserver</artifactId>
             <version>${helidon.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>jakarta.annotation</groupId>
-                    <artifactId>jakarta.annotation-api</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.google.protobuf</groupId>
@@ -83,11 +77,6 @@
             <groupId>no.ssb.jpms</groupId>
             <artifactId>jpms-checker-qual</artifactId>
             <version>1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>no.ssb.jpms</groupId>
-            <artifactId>jsr305-and-javax.annotation-api</artifactId>
-            <version>1.2</version>
         </dependency>
     </dependencies>
 
